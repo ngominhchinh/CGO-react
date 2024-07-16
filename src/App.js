@@ -9,6 +9,7 @@ import "./App.css";
 // import DetailStudent from "./pages/DetailStudent";
 import Selector from "./components/Selector";
 import CarSelection from "./components/CarSelection";
+import Timer from "./components/Timer";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
       <Routes>
          <Route path="selector" element={<Selector />}></Route>
          <Route path="carselection" element={<CarSelection />}></Route>
-      
+         <Route path="timer" element={<Timer />}></Route>
       </Routes>
     </>
   );
