@@ -10,6 +10,7 @@ import "./App.css";
 import Selector from "./components/Selector";
 import CarSelection from "./components/CarSelection";
 import Timer from "./components/Timer";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
          <Route path="selector" element={<Selector />}></Route>
          <Route path="carselection" element={<CarSelection />}></Route>
          <Route path="timer" element={<Timer />}></Route>
+         <Route path="counter" element={<Counter />}></Route>
       </Routes>
     </>
   );
