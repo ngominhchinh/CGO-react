@@ -8,6 +8,7 @@ import "./App.css";
 // import { Link, Route, Routes } from 'react-router-dom'
 // import DetailStudent from "./pages/DetailStudent";
 import Selector from "./components/Selector";
+import CarSelection from "./components/CarSelection";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
       </Routes> */}
       <Routes>
          <Route path="selector" element={<Selector />}></Route>
+         <Route path="carselection" element={<CarSelection />}></Route>
+      
       </Routes>
     </>
   );
